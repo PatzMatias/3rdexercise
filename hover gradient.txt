@@ -1,0 +1,16 @@
+hover gradient
+
+#6c9ee0
+#1b65c8
+#003986
+#317fe6
+
+stroke #566982
+
+Website Title gradient
+#45494d
+#000000
+
+gradient
+#989898
+#323232
