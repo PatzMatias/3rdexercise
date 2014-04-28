@@ -3,6 +3,11 @@ body{
 	background-color: #000;
 }
 
+@font-face{
+font-family: Nevis;
+src: url(nevis.ttf);
+}
+
 /* start main box*/
 .main-wrapper{
 	margin-left: auto;
@@ -46,18 +51,19 @@ body{
 
 .sitetitle{
 	float: left;
+	font-family: Nevis, sans-serif;
+	line-height: 16px;
+	margin-top: 8px;
 	font-size: 22pt;
 	font-weight: bold;
 	color: #4f4f4f;
-	text-shadow: 1px 1px 2px #ccc;
-	margin-bottom: 0px;
+	text-shadow: 1px 1px 2px #aaaaaa;
 }
 
 .caption{
-	line-height: 3px;
-	margin-top: 0px;
 	color: #ababab;
 	font-size: 10pt;
+	font-family: 'Arial', sans-serif;
 	font-weight: normal;
 	text-shadow: 1px 1px 2px #fff;
 	margin-left: 2px;
@@ -116,18 +122,22 @@ body{
 	position: relative;
 }
 
-.slice4{
+.footer_links{
 	width: 960px;
 	height: 214px;
+	padding: 40px;
 	background-color: #ededed;
 	position: relative;
 }
 
-.slice5{
+.footer{
 	width: 960px;
 	height: 60px;
 	background-color: #ededed;
-	box-shadow: 0px 0px 5px 0px #989898;
+	box-shadow: 0px 0px 2px 0px #989898;
+	font-family: 'Arial', sans-serif;
+	font-size: 10pt;
+	color: #4f4f4f;
 	position: relative;
 }
 
@@ -135,7 +145,7 @@ body{
 	float: left;
 	width: 260px;
 	height: 75px;
-	margin-top: 28px;
+	margin-top: 40px;
 	margin-left: 40px;
 }
 
@@ -204,6 +214,7 @@ body{
 	margin-top: 0px;
 	font-family: 'Open Sans', 'Arial', sans-serif;
 	font-size: 9pt;
+	font-weight: 700;
 	color: #4f4f4f;
 	text-align: left;
 	line-height: 22px;
@@ -216,7 +227,7 @@ body{
 	padding-top: 8px;
 	margin-top: 20px;
 	border-radius: 5px;
-	font-family: 'Open Sans', 'Arial', sans-serif;
+	font-family: Nevis,'Open Sans', 'Arial', sans-serif;
 	font-size: 10pt;
 	font-weight: bold;
 	color: #6d6d6d;
@@ -227,5 +238,114 @@ body{
 .des_link{
 	font-family: 'Open Sans', 'Arial', sans-serif;
 	font-size: 9pt;
-	line-height: 10px;
+}
+
+.linkholder{
+	margin-top: -14px;
+	width: 265px;
+	height: 10px;
+	float: left;
+	margin-bottom: 25px;
+
+}
+
+.linkholder span{
+	float: left;
+	margin-top: 22px;
+	font-weight: 400;
+}
+
+.bodylinks{
+	color: #0f4eb5;
+	text-decoration: none;
+}
+
+.linkholder img{
+	width: 5px;
+	height: 10px;
+	float: left;
+	margin-top: 23px;
+	margin-right: 14px;
+}
+
+.footer_links, .footer{
+		font-family: 'Arial', sans-serif;
+}
+
+#wrapper1{
+	width: 150px;
+}
+
+#wrapper2{
+	width: 335px;
+	margin-left: 40px;
+}
+
+#wrapper1, #wrapper2{
+	float: left;
+}
+
+.foothead{
+	font-family: 'Arial', sans-serif;
+	font-size: 14pt;
+	font-weight: 700;
+	color: #575757;
+	display: block;
+	margin-bottom: 30px;
+}
+.footcontent{
+	font-size: 10pt;
+	font-weight: 400;
+	color: #4f4f4f;
+}
+
+.footcontent p{
+	line-height: 25px;
+}
+
+.footcontent span{
+	color: black;
+	font-weight: bold;
+}
+
+#fromblog .foothead{
+	margin-bottom: 14px;
+}
+
+
+#fromblog .footcontent p{
+	line-height: 18px;
+	margin-bottom: 20px;
+}
+
+#fromblog a{
+	font-weight: bold;
+}
+
+.grab{
+	margin-left: 20px;
+	padding-top: 22px;
+	padding-left: 20px;
+	float: left;
+}
+
+.grab span{
+	float: left;
+}
+
+
+.iconholder{
+	margin-top: 0px;
+	margin-left: 145px;
+	float: left;
+}
+
+.footicon{
+	margin-right: 15px;
+}
+
+
+.bfooter{
+	margin-top: -2px;
+	margin-left: 90px;
 }
